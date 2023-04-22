@@ -1,0 +1,124 @@
+.kategory{
+    display: flex;
+    align-items: center;
+
+    .btn1{
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 2rem 1rem;
+        border: none;
+    }
+    .katBtn{
+        background: #fff;
+    }
+    .active{
+        background: #FFEC00;
+        border-radius: 10px;
+        width: 185px;
+        height: 48px;
+        box-shadow: 0 2px 3px #00000037;
+    }
+}
+
+.section-for-img{
+    border-radius: 10px;
+    border: 1px solid #C9C9C9;
+    width: 560px;
+    height: 59px;
+    
+    span{
+        line-height: 59px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.4px;
+        color: #6F6F6F;
+    }
+}
+
+
+.textarea{
+    &:focus{
+        outline: none;
+    }
+    border-radius: 10px;
+    width: 98%;
+    height: 120px;
+    resize: none;
+    border: 1px solid #C9C9C9;
+    padding-top: 15px;
+}
+
+.roww{
+    flex-wrap: nowrap;
+}
+.narxi{
+    width: 560px;
+    border: 1px solid #C9C9C9;
+    height: 59px;
+    border-radius: 10px;
+    padding: 0 10px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.por{
+    position: relative;
+}
+.chevron-down{
+    width: 29px;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.yellowBtn{
+    background: #FFEC00;
+    border-radius: 10px;
+    width: 185px;
+    height: 48px;
+    box-shadow: 0 2px 3px #00000037;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2rem 1rem;
+    border: none;
+}
+.nowrap{
+    margin: 0;
+}
+.box{
+    width: 260px;
+    margin: 15px;
+    img{
+        width: 260px !important;
+        height: 145.5px !important;
+        object-fit: cover;
+    }
+
+    .box-title{
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    .box-dec{
+        color: #444;
+        font-synthesis: 16px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+
+    .tarif{
+        color: #555;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+}

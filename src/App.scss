@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.active{
+    background: #ffec00 !important;
+}
+
+.notfound{
+    text-align: center;
+    margin-top: 300px;
+    h1{
+        font-size: 3rem;
+        span{
+            color: red;
+            padding: 0 10px;
+        }
+    }
+}

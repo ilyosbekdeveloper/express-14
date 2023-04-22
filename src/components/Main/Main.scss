@@ -1,0 +1,83 @@
+.flex{
+    display: flex;
+
+    aside{
+        width: 420px;
+        min-height: 100vh;
+        background: #FFFCED;
+
+        ul{
+            padding: 0;
+            margin: auto;
+        }
+    }
+}
+main{
+    width: 1230px;
+    height: 88.5%;
+    padding-top: 20px;
+}
+
+.leftSection{
+    cursor: pointer;
+
+}
+.rightSection img{
+    width: 125px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.rightSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 81px;
+    margin: 1rem auto;
+
+    img{
+        width: 100%;
+    }
+}
+
+.lii{
+    text-decoration: none;
+    align-items: center;
+    margin: 13px 13px;
+    border-radius: 10px;
+}
+
+.active{
+    background-color: #FFDC03A6;
+}
+.plusIcon{
+    width: 20px;
+}
+.li-title{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+.li-par{
+    color: #888;
+    font-size: 10px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.li-brand{
+    padding-right: 10px;
+    padding-left: 15px;
+}
